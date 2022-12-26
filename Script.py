@@ -189,33 +189,19 @@ This module only works for my admins
 • /broadcast - <code>to broadcast a message to all users</code>"""
 
     STATUS_TXT = """╭─────❪ 𝗦𝗧𝗔𝗧𝗨𝗦 ❫─────⍟
-
 │
-
 <b>├⍟ Tᴏᴛᴀʟ Fɪʟᴇs :</b> <code>{}</code>
-
 │
-
 <b>├⍟ Aᴄᴛɪᴠᴇ Uꜱᴇʀꜱ :</b> <code>{}</code>
-
 │
-
 <b>├⍟ Tᴏᴛᴀʟ Gʀᴏᴜᴘs :</b> <code>{}</code>
-
 │
-
 <b>├⍟ Dɪꜱᴋ Sɪᴢᴇ :</b> <code>512 MB</code>
-
 │
-
 <b>├⍟ Dɪꜱᴋ Uꜱᴇᴅ :</b> <code>{}</code>
-
 │
-
 <b>├⍟ Fʀᴇᴇ Dɪꜱᴋ :</b> <code>{}</code>
-
 │
-
 ╰───❪ <b><a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ 💫</a></b> ❫───⍟"""
 
     LOG_TEXT_G = """#NewGroup
