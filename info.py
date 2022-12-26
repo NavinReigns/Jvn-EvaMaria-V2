@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '15811312'))
 API_HASH = environ.get('API_HASH', 'cfaff73fc72c4f5969a97b40571ac4a3')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5655231392:AAFnA28S3Gd5HIxLBfWVot2uYSn8FNWfNUA')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5477427515:AAFNrefqQov1Os4yMEZ7xqKWKoo8CfSzIKU')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -33,11 +33,11 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://navin_reigns:4ddSZs5dt#kj*K!@cluster0.84esh.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "jvn_bgmz")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'EvaMaria_V2')
+DATABASE_NAME = environ.get('DATABASE_NAME', "jvncreation")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'filter_bot')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001772979803'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001811235622'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreation')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
