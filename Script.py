@@ -205,19 +205,12 @@ This module only works for my admins
 ╰───❪ <b><a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ 💫</a></b> ❫───⍟"""
 
     LOG_TEXT_G = """#NewGroup
-
 Group = {}(<code>{}</code>)
-
 Total Members = <code>{}</code>
-
 Added By - {}
-
 """
 
     LOG_TEXT_P = """#NewUser
-
 ID - <code>{}</code>
-
 Name - {}
-
 """
