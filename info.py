@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '15811312'))
 API_HASH = environ.get('API_HASH', 'cfaff73fc72c4f5969a97b40571ac4a3')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5477427515:AAFNrefqQov1Os4yMEZ7xqKWKoo8CfSzIKU')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5393101255:AAHg7rux17v_skxi2g6KG0dtceNarCOV7fE')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -37,8 +37,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "jvncreation")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'filter_bot')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001811235622'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreation')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001772979803)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreatio)
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreationn')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
