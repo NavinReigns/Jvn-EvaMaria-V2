@@ -37,9 +37,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "jvncreation")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'filter_bot')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001772979803)
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreatio)
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreationn')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001772979803')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreatio')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'jvncreation')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
@@ -73,7 +73,7 @@ URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'dulink.in')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'fefff803cef79069fec9b278b612486bc04ab374')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 600))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 450))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
