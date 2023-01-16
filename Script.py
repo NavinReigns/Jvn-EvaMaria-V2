@@ -2,19 +2,19 @@ class script(object):
 
     START_TXT = """<b>Hᴇʟʟᴏ Nᴀɴʙᴀ / Nᴀɴʙɪ 👋 ,{}
 
-Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/jvn_filter_bot>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴀɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ, Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs😎🔥
+Mʏ Nᴀᴍᴇ ɪs <a href={}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ᴀɴᴅ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ, Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs😎🔥
 
-💖 Pᴏᴡᴇʀᴇᴅ ʙʏ © <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 💫
+💖 Pᴏᴡᴇʀᴇᴅ ʙʏ © <a href=https://t.me/Jvn_LinkZz>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 💫
 
-🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Navin_Reigns>Nᴀᴠɪɴ</a> 🌟</b>"""
+🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Jvn_LinkZz>Nᴀᴠɪɴ</a> 🌟</b>"""
 
     HELP_TXT = """
 
     <b>🙋🏻‍♂️ Hellooo {} 🤓
 
-○  Join Official Channel Here👉 : <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 🌟
+○  Join Official Channel Here👉 : <a href=https://t.me/Jvn_LinkZz>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 🌟
 
-○  It's Official Group👉 : <a href=https://t.me/+Mw5OHYKo9KkzODk9>Jᴠɴ Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ 24×7</a> ❤️
+○  It's Official Group👉 : <a href=https://t.me/Jvn_LinkZz>Jᴠɴ Mᴏᴠɪᴇ Rᴇᴏ̨ᴜᴇsᴛ 24×7</a> ❤️
 
 ○  Search using inline mode:-
 
@@ -40,13 +40,13 @@ This methord works on any chat, Just type @jvn_filter_bot and then leave a space
 
 ○ Dont Spam Me...🤒
 
-💖 Pᴏᴡᴇʀᴇᴅ ʙʏ © <a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 💫
+💖 Pᴏᴡᴇʀᴇᴅ ʙʏ © <a href=https://t.me/Jvn_LinkZz>Jᴠɴ CʀᴇᴀTɪᴏɴ</a> 💫
 
-🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Navin_Reigns>Nᴀᴠɪɴ</a> 🌟</b>"""
+🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Jvn_LinkZz>Nᴀᴠɪɴ</a> 🌟</b>"""
 
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Navin_Reigns>Nᴀᴠɪɴ</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Jvn_LinkZz>Nᴀᴠɪɴ</a>
 
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 
@@ -62,11 +62,11 @@ This methord works on any chat, Just type @jvn_filter_bot and then leave a space
 
 - Eva Maria is a open source project. 
 
-- Source - https://t.me/jvncreation  
+- Source - https://t.me/Jvn_LinkZz  
 
 <b>DEVS:</b>
 
-- <a href=https://t.me/jvncreation>Navin</a>"""
+- <a href=https://t.me/Jvn_LinkZz>Navin</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -104,7 +104,7 @@ This methord works on any chat, Just type @jvn_filter_bot and then leave a space
 
 <b>URL buttons:</b>
 
-<code>[Button Text](buttonurl:https://t.me/jvncreation)</code>
+<code>[Button Text](buttonurl:https://t.me/Jvn_LinkZz)</code>
 
 <b>Alert buttons:</b>
 
@@ -202,7 +202,7 @@ This module only works for my admins
 │
 <b>├⍟ Fʀᴇᴇ Dɪꜱᴋ :</b> <code>{}</code>
 │
-╰───❪ <b><a href=https://t.me/jvncreation>Jᴠɴ CʀᴇᴀTɪᴏɴ 💫</a></b> ❫───⍟"""
+╰───❪ <b><a href=https://t.me/Jvn_LinkZz>Jᴠɴ CʀᴇᴀTɪᴏɴ 💫</a></b> ❫───⍟"""
 
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
