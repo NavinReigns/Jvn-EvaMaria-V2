@@ -146,6 +146,7 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     )
+                await client.send_message(LOG_CHANNEL, "Hello Nanba❤️‍🔥")
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
@@ -155,6 +156,7 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     )
+                await client.send_message(LOG_CHANNEL, "Hello Nanba❤️‍🔥")
             except Exception as e:
                 logger.warning(e, exc_info=True)
                 continue
