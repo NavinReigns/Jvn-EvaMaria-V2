@@ -146,7 +146,13 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     )
-                await client.send_message(LOG_CHANNEL, "Hello Nanba❤️‍🔥")
+                await client.send_message(LOG_CHANNEL, "Hello Nanba test❤️‍🔥")
+                await client.send_cached_media(
+                    chat_id=FILE_STORE_CHANNEL,
+                    file_id=msg.get("file_id"),
+                    caption=f_caption,
+                    protect_content=msg.get('protect', False),
+                    )
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
@@ -157,6 +163,12 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     )
                 await client.send_message(LOG_CHANNEL, "Hello Nanba❤️‍🔥")
+                await client.send_cached_media(
+                    chat_id=FILE_STORE_CHANNEL,
+                    file_id=msg.get("file_id"),
+                    caption=f_caption,
+                    protect_content=msg.get('protect', False),
+                    )
             except Exception as e:
                 logger.warning(e, exc_info=True)
                 continue
