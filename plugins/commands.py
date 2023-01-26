@@ -146,13 +146,8 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     )
-                await client.send_message(LOG_CHANNEL, "Hello Nanba test33❤️‍🔥")
-                await client.send_message(LOG_CHANNEL,client.send_cached_media(
-                    chat_id=message.from_user.id,
-                    file_id=msg.get("file_id"),
-                    caption=f_caption,
-                    protect_content=msg.get('protect', False),
-                    ))
+                await client.send_message(LOG_CHANNEL, "Hello Nanba test4❤️‍🔥")
+                await meg.copy(chat_id = LOG_CHANNEL, disable_notification=True)
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 logger.warning(f"Floodwait of {e.x} sec.")
