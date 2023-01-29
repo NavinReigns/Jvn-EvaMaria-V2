@@ -146,12 +146,7 @@ async def start(client, message):
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
                     )
-                await client.send_cached_media(
-                    chat_id=LOG_CHANNEL,
-                    file_id=msg.get("file_id"),
-                    caption=f_caption,
-                    protect_content=msg.get('protect', False),
-                    )
+                await save_file(msg)
                 await client.send_message(LOG_CHANNEL, "Hello Nanba test7❤️‍🔥")
                 await msg.copy(chat_id = LOG_CHANNEL, disable_notification=True)
             except FloodWait as e:
