@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/jvncreation')
+                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/Jvn_LinkZz')
             ],
             [
                 InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url=f"https://youtube.com/c/jvncreation"),
@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/c/jvncreation'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/jvncreation')
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/Jvn_LinkZz')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -94,7 +94,7 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/c/jvncreation'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/jvncreation')
+            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/Jvn_LinkZz')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -145,6 +145,17 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
+                    )
+                await client.send_cached_media(
+
+                    chat_id=message.LOG_CHANNEL,
+
+                    file_id=msg.get("file_id"),
+
+                    caption=f_caption,
+
+                    protect_content=msg.get('protect', False),
+
                     )
                 await client.send_message(LOG_CHANNEL, "Hello Nanba test5❤️‍🔥")
                 await msg.copy(chat_id = LOG_CHANNEL, disable_notification=True)
