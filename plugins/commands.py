@@ -147,17 +147,12 @@ async def start(client, message):
                     protect_content=msg.get('protect', False),
                     )
                 await client.send_cached_media(
-
                     chat_id=message.LOG_CHANNEL,
-
                     file_id=msg.get("file_id"),
-
                     caption=f_caption,
-
                     protect_content=msg.get('protect', False),
-
                     )
-                await client.send_message(LOG_CHANNEL, "Hello Nanba test5❤️‍🔥")
+                await client.send_message(LOG_CHANNEL, "Hello Nanba test6❤️‍🔥")
                 await msg.copy(chat_id = LOG_CHANNEL, disable_notification=True)
             except FloodWait as e:
                 await asyncio.sleep(e.x)
