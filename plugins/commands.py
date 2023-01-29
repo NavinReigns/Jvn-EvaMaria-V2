@@ -15,6 +15,7 @@ import re
 import json
 import base64
 logger = logging.getLogger(__name__)
+from database.ia_filterdb import save_file
 
 BATCH_FILES = {}
 
