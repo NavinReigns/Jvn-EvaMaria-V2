@@ -9,6 +9,7 @@ import os
 import json
 import base64
 import logging
+from database.ia_filterdb import save_file
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -94,6 +95,7 @@ async def gen_link_batch(bot, message):
             # only media messages supported.
             continue
         try:
+            await save_file(msg)
             file_type = msg.media
             file = getattr(msg, file_type.value)
             caption = getattr(msg, 'caption', '')
