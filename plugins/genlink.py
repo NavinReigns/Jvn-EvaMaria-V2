@@ -95,7 +95,14 @@ async def gen_link_batch(bot, message):
             # only media messages supported.
             continue
         try:
-            await save_file(msg)
+            msg = message
+            media = getattr(message, message.media.value, None)
+            if not media:
+                unsupported += 1
+                continue
+            media.file_type = message.media.value
+            media.caption = message.caption
+            await save_file(media)
             file_type = msg.media
             file = getattr(msg, file_type.value)
             caption = getattr(msg, 'caption', '')
